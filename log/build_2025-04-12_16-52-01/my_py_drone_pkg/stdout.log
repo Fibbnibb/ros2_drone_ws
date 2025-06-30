@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing my_py_drone_pkg.egg-info/PKG-INFO
+writing dependency_links to my_py_drone_pkg.egg-info/dependency_links.txt
+writing entry points to my_py_drone_pkg.egg-info/entry_points.txt
+writing requirements to my_py_drone_pkg.egg-info/requires.txt
+writing top-level names to my_py_drone_pkg.egg-info/top_level.txt
+reading manifest file 'my_py_drone_pkg.egg-info/SOURCES.txt'
+writing manifest file 'my_py_drone_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my-py-drone-pkg.egg-link (link to .)
+
+Installed /home/emeka/ros2_drone_ws/build/my_py_drone_pkg
+running symlink_data
+symbolically linking /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/resource/my_py_drone_pkg -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/package.xml -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/share/my_py_drone_pkg

@@ -1,0 +1,179 @@
+[0.325s] Invoking command in '/home/emeka/ros2_drone_ws/build/my_py_drone_pkg': PYTHONPATH=/home/emeka/ros2_drone_ws/build/my_py_drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build
+[0.454s] running develop
+[0.536s] Removing /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my-py-drone-pkg.egg-link (link to .)
+[0.551s] Invoked command in '/home/emeka/ros2_drone_ws/build/my_py_drone_pkg' returned '0': PYTHONPATH=/home/emeka/ros2_drone_ws/build/my_py_drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build
+[0.552s] Invoking command in '/home/emeka/ros2_drone_ws/src/my_py_drone_pkg': PYTHONPATH=/home/emeka/ros2_drone_ws/build/my_py_drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_drone_pkg build --build-base /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build install --record /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/install.log --single-version-externally-managed install_data --force
+[0.658s] running egg_info
+[0.658s] writing ../../build/my_py_drone_pkg/my_py_drone_pkg.egg-info/PKG-INFO
+[0.659s] writing dependency_links to ../../build/my_py_drone_pkg/my_py_drone_pkg.egg-info/dependency_links.txt
+[0.659s] writing entry points to ../../build/my_py_drone_pkg/my_py_drone_pkg.egg-info/entry_points.txt
+[0.659s] writing requirements to ../../build/my_py_drone_pkg/my_py_drone_pkg.egg-info/requires.txt
+[0.659s] writing top-level names to ../../build/my_py_drone_pkg/my_py_drone_pkg.egg-info/top_level.txt
+[0.660s] reading manifest file '../../build/my_py_drone_pkg/my_py_drone_pkg.egg-info/SOURCES.txt'
+[0.665s] writing manifest file '../../build/my_py_drone_pkg/my_py_drone_pkg.egg-info/SOURCES.txt'
+[0.665s] running build
+[0.665s] running build_py
+[0.665s] copying my_py_drone_pkg/movement.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.665s] copying my_py_drone_pkg/leader_2_follower.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.665s] copying my_py_drone_pkg/fly_with_5drones.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.665s] copying my_py_drone_pkg/simple_follow_drone_3_wth_avoid.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.665s] copying my_py_drone_pkg/drone_position_record_2.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.665s] copying my_py_drone_pkg/mavros_flight_example.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.666s] copying my_py_drone_pkg/takeoff_mav.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.666s] copying my_py_drone_pkg/my_first_node.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.666s] copying my_py_drone_pkg/real_example.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.666s] copying my_py_drone_pkg/real_movement.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.666s] copying my_py_drone_pkg/multi_async_drones_retrn.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.666s] copying my_py_drone_pkg/concurrent_control_of_2_drones_ver2.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.666s] copying my_py_drone_pkg/drone_position_record_3.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.666s] copying my_py_drone_pkg/formation_of_drones_with_seperation.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.666s] copying my_py_drone_pkg/drone_state_listner_2.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.666s] copying my_py_drone_pkg/simple_follow_drone.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.666s] copying my_py_drone_pkg/jumping_example.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.666s] copying my_py_drone_pkg/formation_of_drones.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.666s] copying my_py_drone_pkg/real_movement_2_drones.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.666s] copying my_py_drone_pkg/topic_list_maker.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.666s] copying my_py_drone_pkg/offboard_control.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.666s] copying my_py_drone_pkg/drone_state_listener.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.666s] copying my_py_drone_pkg/takeoff.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.666s] copying my_py_drone_pkg/concurrent_control_of_2_drones.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.666s] copying my_py_drone_pkg/drone_position_record.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.667s] copying my_py_drone_pkg/multi_async_drones.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.667s] copying my_py_drone_pkg/simple_follow_drone_2.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.667s] copying my_py_drone_pkg/real_drone_movement.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.667s] copying my_py_drone_pkg/real_example_2.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.667s] copying my_py_drone_pkg/multi_waypoint.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.667s] copying my_py_drone_pkg/offboard_control_ver2.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.667s] copying my_py_drone_pkg/proto_off.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.667s] copying my_py_drone_pkg/template_py_node.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.667s] copying my_py_drone_pkg/mavros_subscriber.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.667s] copying my_py_drone_pkg/fly_with_4drones.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.667s] copying my_py_drone_pkg/full_cntrl_1drn.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.667s] copying my_py_drone_pkg/offb_node.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.667s] copying my_py_drone_pkg/multi_exec_2_drones.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.667s] running install
+[0.668s] running install_lib
+[0.668s] creating /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.668s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/movement.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.668s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/leader_2_follower.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.668s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/fly_with_5drones.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.668s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/simple_follow_drone_3_wth_avoid.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.668s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/drone_position_record_2.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.668s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/mavros_flight_example.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.668s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/takeoff_mav.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.668s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/my_first_node.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.668s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/real_example.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.668s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/real_movement.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.668s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/multi_async_drones_retrn.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.669s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/concurrent_control_of_2_drones_ver2.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.669s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/drone_position_record_3.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.669s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/formation_of_drones_with_seperation.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.669s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/drone_state_listner_2.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.669s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/simple_follow_drone.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.669s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/jumping_example.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.669s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/formation_of_drones.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.669s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/real_movement_2_drones.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.669s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/topic_list_maker.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.669s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/offboard_control.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.669s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/drone_state_listener.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.669s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/takeoff.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.669s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/concurrent_control_of_2_drones.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.669s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/drone_position_record.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.669s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/multi_async_drones.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.669s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/simple_follow_drone_2.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.669s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/real_drone_movement.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.669s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/real_example_2.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.669s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/multi_waypoint.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.670s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/offboard_control_ver2.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.670s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/proto_off.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.670s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/template_py_node.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.670s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/mavros_subscriber.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.670s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/fly_with_4drones.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.670s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/full_cntrl_1drn.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.670s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/__init__.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.670s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/offb_node.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.670s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/multi_exec_2_drones.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.670s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/movement.py to movement.cpython-310.pyc
+[0.671s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/leader_2_follower.py to leader_2_follower.cpython-310.pyc
+[0.672s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/fly_with_5drones.py to fly_with_5drones.cpython-310.pyc
+[0.675s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/simple_follow_drone_3_wth_avoid.py to simple_follow_drone_3_wth_avoid.cpython-310.pyc
+[0.676s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/drone_position_record_2.py to drone_position_record_2.cpython-310.pyc
+[0.677s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/mavros_flight_example.py to mavros_flight_example.cpython-310.pyc
+[0.677s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/takeoff_mav.py to takeoff_mav.cpython-310.pyc
+[0.677s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[0.678s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/real_example.py to real_example.cpython-310.pyc
+[0.678s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/real_movement.py to real_movement.cpython-310.pyc
+[0.678s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/multi_async_drones_retrn.py to multi_async_drones_retrn.cpython-310.pyc
+[0.679s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/concurrent_control_of_2_drones_ver2.py to concurrent_control_of_2_drones_ver2.cpython-310.pyc
+[0.679s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/drone_position_record_3.py to drone_position_record_3.cpython-310.pyc
+[0.680s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/formation_of_drones_with_seperation.py to formation_of_drones_with_seperation.cpython-310.pyc
+[0.681s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/drone_state_listner_2.py to drone_state_listner_2.cpython-310.pyc
+[0.682s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/simple_follow_drone.py to simple_follow_drone.cpython-310.pyc
+[0.683s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/jumping_example.py to jumping_example.cpython-310.pyc
+[0.684s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/formation_of_drones.py to formation_of_drones.cpython-310.pyc
+[0.685s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/real_movement_2_drones.py to real_movement_2_drones.cpython-310.pyc
+[0.685s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/topic_list_maker.py to topic_list_maker.cpython-310.pyc
+[0.685s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/offboard_control.py to offboard_control.cpython-310.pyc
+[0.686s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/drone_state_listener.py to drone_state_listener.cpython-310.pyc
+[0.686s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/takeoff.py to takeoff.cpython-310.pyc
+[0.686s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/concurrent_control_of_2_drones.py to concurrent_control_of_2_drones.cpython-310.pyc
+[0.687s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/drone_position_record.py to drone_position_record.cpython-310.pyc
+[0.687s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/multi_async_drones.py to multi_async_drones.cpython-310.pyc
+[0.688s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/simple_follow_drone_2.py to simple_follow_drone_2.cpython-310.pyc
+[0.689s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/real_drone_movement.py to real_drone_movement.cpython-310.pyc
+[0.690s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/real_example_2.py to real_example_2.cpython-310.pyc
+[0.690s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/multi_waypoint.py to multi_waypoint.cpython-310.pyc
+[0.691s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/offboard_control_ver2.py to offboard_control_ver2.cpython-310.pyc
+[0.692s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/proto_off.py to proto_off.cpython-310.pyc
+[0.692s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/template_py_node.py to template_py_node.cpython-310.pyc
+[0.692s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/mavros_subscriber.py to mavros_subscriber.cpython-310.pyc
+[0.692s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/fly_with_4drones.py to fly_with_4drones.cpython-310.pyc
+[0.694s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/full_cntrl_1drn.py to full_cntrl_1drn.cpython-310.pyc
+[0.695s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/__init__.py to __init__.cpython-310.pyc
+[0.695s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/offb_node.py to offb_node.cpython-310.pyc
+[0.695s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/multi_exec_2_drones.py to multi_exec_2_drones.cpython-310.pyc
+[0.696s] running install_data
+[0.696s] copying resource/my_py_drone_pkg -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/share/ament_index/resource_index/packages
+[0.696s] copying package.xml -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/share/my_py_drone_pkg
+[0.696s] running install_egg_info
+[0.696s] Copying ../../build/my_py_drone_pkg/my_py_drone_pkg.egg-info to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg-0.0.0-py3.10.egg-info
+[0.697s] running install_scripts
+[0.706s] Installing advance_follower script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.706s] Installing concurrent_control script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.706s] Installing concurrent_control_ver2 script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.706s] Installing drone_pos_rec script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.706s] Installing drone_pos_rec_2 script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.706s] Installing drone_pos_rec_3 script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.706s] Installing drone_state_listener script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.706s] Installing drone_state_listener_2 script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.706s] Installing fly_4_drones script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.706s] Installing fly_5_drones script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.706s] Installing formation_drones script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.706s] Installing formation_drones_2 script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.706s] Installing full_drn_cntrl script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.707s] Installing jumping_person script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.707s] Installing leader_follower script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.707s] Installing manual_follower script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.707s] Installing mavros_flight_example script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.707s] Installing mavros_state_subscriber script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.707s] Installing move_2_drones script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.707s] Installing movement script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.707s] Installing multi_async_drones script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.707s] Installing multi_async_drones_retrn script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.707s] Installing multi_trhd_2_drones script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.707s] Installing multiple_waypoint script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.707s] Installing offb_node script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.707s] Installing offboard_control script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.707s] Installing offboard_control_ver2 script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.707s] Installing proto_off script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.707s] Installing py_node script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.707s] Installing real_drone_movement script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.707s] Installing real_example script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.707s] Installing real_version2 script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.708s] Installing simple_follower script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.708s] Installing takeoff script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.708s] Installing takeoff_land script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.708s] Installing takeoff_mav script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.708s] Installing topic_lister script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.708s] writing list of installed files to '/home/emeka/ros2_drone_ws/build/my_py_drone_pkg/install.log'
+[0.720s] Invoked command in '/home/emeka/ros2_drone_ws/src/my_py_drone_pkg' returned '0': PYTHONPATH=/home/emeka/ros2_drone_ws/build/my_py_drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_drone_pkg build --build-base /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build install --record /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/install.log --single-version-externally-managed install_data --force

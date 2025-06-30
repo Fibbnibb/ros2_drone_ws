@@ -1,0 +1,18 @@
+[0.353s] Invoking command in '/home/emeka/ros2_drone_ws/build/my_py_drone_pkg': PYTHONPATH=/home/emeka/ros2_drone_ws/build/my_py_drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build --no-deps symlink_data --force
+[0.495s] running develop
+[0.575s] running egg_info
+[0.575s] writing my_py_drone_pkg.egg-info/PKG-INFO
+[0.576s] writing dependency_links to my_py_drone_pkg.egg-info/dependency_links.txt
+[0.576s] writing entry points to my_py_drone_pkg.egg-info/entry_points.txt
+[0.576s] writing requirements to my_py_drone_pkg.egg-info/requires.txt
+[0.576s] writing top-level names to my_py_drone_pkg.egg-info/top_level.txt
+[0.578s] reading manifest file 'my_py_drone_pkg.egg-info/SOURCES.txt'
+[0.578s] writing manifest file 'my_py_drone_pkg.egg-info/SOURCES.txt'
+[0.579s] running build_ext
+[0.579s] Creating /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my-py-drone-pkg.egg-link (link to .)
+[0.580s] 
+[0.580s] Installed /home/emeka/ros2_drone_ws/build/my_py_drone_pkg
+[0.580s] running symlink_data
+[0.580s] symbolically linking /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/resource/my_py_drone_pkg -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/share/ament_index/resource_index/packages
+[0.580s] symbolically linking /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/package.xml -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/share/my_py_drone_pkg
+[0.610s] Invoked command in '/home/emeka/ros2_drone_ws/build/my_py_drone_pkg' returned '0': PYTHONPATH=/home/emeka/ros2_drone_ws/build/my_py_drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build --no-deps symlink_data --force

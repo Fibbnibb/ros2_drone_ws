@@ -1,0 +1,33 @@
+[0.289s] Invoking command in '/home/emeka/ros2_drone_ws/src/my_py_drone_pkg': PYTHONPATH=/home/emeka/ros2_drone_ws/build/my_py_drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_drone_pkg build --build-base /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build install --record /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/install.log --single-version-externally-managed install_data
+[0.402s] running egg_info
+[0.402s] creating ../../build/my_py_drone_pkg/my_py_drone_pkg.egg-info
+[0.402s] writing ../../build/my_py_drone_pkg/my_py_drone_pkg.egg-info/PKG-INFO
+[0.402s] writing dependency_links to ../../build/my_py_drone_pkg/my_py_drone_pkg.egg-info/dependency_links.txt
+[0.402s] writing entry points to ../../build/my_py_drone_pkg/my_py_drone_pkg.egg-info/entry_points.txt
+[0.402s] writing requirements to ../../build/my_py_drone_pkg/my_py_drone_pkg.egg-info/requires.txt
+[0.402s] writing top-level names to ../../build/my_py_drone_pkg/my_py_drone_pkg.egg-info/top_level.txt
+[0.402s] writing manifest file '../../build/my_py_drone_pkg/my_py_drone_pkg.egg-info/SOURCES.txt'
+[0.403s] reading manifest file '../../build/my_py_drone_pkg/my_py_drone_pkg.egg-info/SOURCES.txt'
+[0.404s] writing manifest file '../../build/my_py_drone_pkg/my_py_drone_pkg.egg-info/SOURCES.txt'
+[0.404s] running build
+[0.404s] running build_py
+[0.404s] creating /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build
+[0.404s] creating /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib
+[0.404s] creating /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.404s] copying my_py_drone_pkg/__init__.py -> /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg
+[0.404s] running install
+[0.404s] running install_lib
+[0.404s] creating /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.404s] copying /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build/lib/my_py_drone_pkg/__init__.py -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg
+[0.405s] byte-compiling /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg/__init__.py to __init__.cpython-310.pyc
+[0.405s] running install_data
+[0.405s] creating /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/share/ament_index
+[0.405s] creating /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/share/ament_index/resource_index
+[0.405s] creating /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/share/ament_index/resource_index/packages
+[0.405s] copying resource/my_py_drone_pkg -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/share/ament_index/resource_index/packages
+[0.405s] copying package.xml -> /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/share/my_py_drone_pkg
+[0.405s] running install_egg_info
+[0.406s] Copying ../../build/my_py_drone_pkg/my_py_drone_pkg.egg-info to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my_py_drone_pkg-0.0.0-py3.10.egg-info
+[0.407s] running install_scripts
+[0.417s] writing list of installed files to '/home/emeka/ros2_drone_ws/build/my_py_drone_pkg/install.log'
+[0.429s] Invoked command in '/home/emeka/ros2_drone_ws/src/my_py_drone_pkg' returned '0': PYTHONPATH=/home/emeka/ros2_drone_ws/build/my_py_drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_drone_pkg build --build-base /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build install --record /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/install.log --single-version-externally-managed install_data
