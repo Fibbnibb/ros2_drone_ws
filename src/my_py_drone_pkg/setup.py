@@ -57,6 +57,8 @@ setup(
             "advance_follower = my_py_drone_pkg.simple_follow_drone_3_wth_avoid:main",
             "fly_4_drones = my_py_drone_pkg.fly_with_4drones:main",
             "fly_5_drones = my_py_drone_pkg.fly_with_5drones:main",
+            "fly_4_drones_ver2 = my_py_drone_pkg.fly_with_4drone_ver2:main",
+            "fly_with_yw = my_py_drone_pkg.fly_with_yw:main",
         ],
     },
 )

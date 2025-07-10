@@ -1,0 +1,54 @@
+[0.301s] Invoking command in '/home/emeka/ros2_drone_ws/build/my_py_drone_pkg': PYTHONPATH=/home/emeka/ros2_drone_ws/build/my_py_drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build --no-deps symlink_data
+[0.428s] running develop
+[0.506s] running egg_info
+[0.506s] writing my_py_drone_pkg.egg-info/PKG-INFO
+[0.506s] writing dependency_links to my_py_drone_pkg.egg-info/dependency_links.txt
+[0.506s] writing entry points to my_py_drone_pkg.egg-info/entry_points.txt
+[0.506s] writing requirements to my_py_drone_pkg.egg-info/requires.txt
+[0.506s] writing top-level names to my_py_drone_pkg.egg-info/top_level.txt
+[0.508s] reading manifest file 'my_py_drone_pkg.egg-info/SOURCES.txt'
+[0.508s] writing manifest file 'my_py_drone_pkg.egg-info/SOURCES.txt'
+[0.509s] running build_ext
+[0.509s] Creating /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages/my-py-drone-pkg.egg-link (link to .)
+[0.510s] Installing advance_follower script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.510s] Installing concurrent_control script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.510s] Installing concurrent_control_ver2 script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.510s] Installing drone_pos_rec script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.510s] Installing drone_pos_rec_2 script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.510s] Installing drone_pos_rec_3 script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.510s] Installing drone_state_listener script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.510s] Installing drone_state_listener_2 script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.510s] Installing fly_4_drones script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.510s] Installing fly_4_drones_ver2 script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.510s] Installing fly_5_drones script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.510s] Installing formation_drones script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.510s] Installing formation_drones_2 script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.511s] Installing full_drn_cntrl script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.511s] Installing jumping_person script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.511s] Installing leader_follower script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.511s] Installing manual_follower script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.511s] Installing mavros_flight_example script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.511s] Installing mavros_state_subscriber script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.511s] Installing move_2_drones script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.511s] Installing movement script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.511s] Installing multi_async_drones script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.511s] Installing multi_async_drones_retrn script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.511s] Installing multi_trhd_2_drones script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.511s] Installing multiple_waypoint script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.511s] Installing offb_node script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.511s] Installing offboard_control script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.511s] Installing offboard_control_ver2 script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.512s] Installing proto_off script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.512s] Installing py_node script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.512s] Installing real_drone_movement script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.512s] Installing real_example script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.512s] Installing real_version2 script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.512s] Installing simple_follower script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.512s] Installing takeoff script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.512s] Installing takeoff_land script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.512s] Installing takeoff_mav script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.512s] Installing topic_lister script to /home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/my_py_drone_pkg
+[0.512s] 
+[0.512s] Installed /home/emeka/ros2_drone_ws/build/my_py_drone_pkg
+[0.512s] running symlink_data
+[0.528s] Invoked command in '/home/emeka/ros2_drone_ws/build/my_py_drone_pkg' returned '0': PYTHONPATH=/home/emeka/ros2_drone_ws/build/my_py_drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build --no-deps symlink_data

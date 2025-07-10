@@ -16,8 +16,10 @@ my_py_drone_pkg/drone_position_record_2.py
 my_py_drone_pkg/drone_position_record_3.py
 my_py_drone_pkg/drone_state_listener.py
 my_py_drone_pkg/drone_state_listner_2.py
+my_py_drone_pkg/fly_with_4drone_ver2.py
 my_py_drone_pkg/fly_with_4drones.py
 my_py_drone_pkg/fly_with_5drones.py
+my_py_drone_pkg/fly_with_yw.py
 my_py_drone_pkg/formation_of_drones.py
 my_py_drone_pkg/formation_of_drones_with_seperation.py
 my_py_drone_pkg/full_cntrl_1drn.py
@@ -47,7 +49,11 @@ my_py_drone_pkg/takeoff.py
 my_py_drone_pkg/takeoff_mav.py
 my_py_drone_pkg/template_py_node.py
 my_py_drone_pkg/topic_list_maker.py
+my_py_drone_pkg.egg-info/PKG-INFO
+my_py_drone_pkg.egg-info/SOURCES.txt
+my_py_drone_pkg.egg-info/dependency_links.txt
+my_py_drone_pkg.egg-info/entry_points.txt
+my_py_drone_pkg.egg-info/requires.txt
+my_py_drone_pkg.egg-info/top_level.txt
+my_py_drone_pkg.egg-info/zip-safe
 resource/my_py_drone_pkg
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
