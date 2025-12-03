@@ -1,0 +1,10 @@
+[0.293s] Invoking command in '/home/emeka/ros2_drone_ws/build/my_py_drone_pkg': PYTHONPATH=/home/emeka/ros2_drone_ws/build/my_py_drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build
+[0.371s] /home/emeka/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.371s]   warnings.warn(msg)
+[0.392s] usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+[0.392s]    or: setup.py --help [cmd1 cmd2 ...]
+[0.392s]    or: setup.py --help-commands
+[0.392s]    or: setup.py cmd --help
+[0.392s] 
+[0.392s] error: option --uninstall not recognized
+[0.401s] Invoked command in '/home/emeka/ros2_drone_ws/build/my_py_drone_pkg' returned '1': PYTHONPATH=/home/emeka/ros2_drone_ws/build/my_py_drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emeka/ros2_drone_ws/install/my_py_drone_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/emeka/ros2_drone_ws/build/my_py_drone_pkg/build

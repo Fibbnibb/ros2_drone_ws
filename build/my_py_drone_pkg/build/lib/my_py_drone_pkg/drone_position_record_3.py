@@ -167,7 +167,7 @@ class DualDronePositionRecorder(Node):
             df['relative_time'] = df['timestamp'] - df['timestamp'].iloc[0]
             
             # Save to file
-            filename = f"{self.output_dir}/{drone_id}_position_{timestamp}.csv"
+            filename = f"{self.output_dir}/{drone_id}_test_{timestamp}.csv"
             df.to_csv(filename, index=False)
             
             # Calculate actual recording rate
@@ -185,7 +185,7 @@ class DualDronePositionRecorder(Node):
         # Save combined file if we have data
         if any_data_saved and combined_data:
             combined_df = pd.concat(combined_data, ignore_index=True)
-            combined_filename = f"{self.output_dir}/all_drones_position_{timestamp}.csv"
+            combined_filename = f"{self.output_dir}/all_drn_position_test_4_4_{timestamp}.csv"
             combined_df.to_csv(combined_filename, index=False)
             self.get_logger().info(f"Saved combined data with {len(combined_df)} records to {combined_filename}")
         elif not any_data_saved:

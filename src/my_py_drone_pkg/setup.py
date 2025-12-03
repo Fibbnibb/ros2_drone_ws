@@ -24,13 +24,10 @@ setup(
             "takeoff = my_py_drone_pkg.takeoff:main",
             "drone_state_listener = my_py_drone_pkg.drone_state_listener:main",
             "drone_state_listener_2 = my_py_drone_pkg.drone_state_listner_2:main",
-            "offboard_control = my_py_drone_pkg.offboard_control:main",
             "offboard_control_ver2 = my_py_drone_pkg.offboard_control_ver2:main",
-            "proto_off = my_py_drone_pkg.proto_off:main",
             "movement = my_py_drone_pkg.movement:main",
             "mavros_state_subscriber = my_py_drone_pkg.mavros_subscriber:main",
             "mavros_flight_example = my_py_drone_pkg.mavros_flight_example:main",
-            "offb_node = my_py_drone_pkg.offb_node:main",
             "takeoff_mav = my_py_drone_pkg.takeoff_mav:main",
             "real_example = my_py_drone_pkg.real_example:main",
             "real_version2 = my_py_drone_pkg.real_example_2:main",
@@ -56,9 +53,10 @@ setup(
             "manual_follower = my_py_drone_pkg.simple_follow_drone_2:main",
             "advance_follower = my_py_drone_pkg.simple_follow_drone_3_wth_avoid:main",
             "fly_4_drones = my_py_drone_pkg.fly_with_4drones:main",
-            "fly_5_drones = my_py_drone_pkg.fly_with_5drones:main",
-            "fly_4_drones_ver2 = my_py_drone_pkg.fly_with_4drone_ver2:main",
-            "fly_with_yw = my_py_drone_pkg.fly_with_yw:main",
+            "fly_1_drones = my_py_drone_pkg.fly_with_1drones:main",
+            "fly_2_drones = my_py_drone_pkg.fly_with_2drones:main",
+            "fly_3_drones = my_py_drone_pkg.fly_with_3drones:main"
+            
         ],
     },
 )

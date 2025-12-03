@@ -1,0 +1,13 @@
+Flight Name: Flight 1 2025-03-28-11-23
+Flight Number: 1
+Timestamp: 2025-03-28-11-23
+Drones: drone1, drone2, drone3
+Recording Start: 2025-03-28 11:23:32
+Recording End: 2025-03-28 11:25:15
+Duration: 102.60 seconds
+Total Data Points: 1532
+Points Per Drone:
+  - drone1: 509
+  - drone2: 514
+  - drone3: 509
+Recording Frequency: 5.0 Hz

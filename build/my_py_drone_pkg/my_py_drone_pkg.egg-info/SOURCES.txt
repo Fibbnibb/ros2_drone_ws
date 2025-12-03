@@ -16,9 +16,14 @@ my_py_drone_pkg/drone_position_record_2.py
 my_py_drone_pkg/drone_position_record_3.py
 my_py_drone_pkg/drone_state_listener.py
 my_py_drone_pkg/drone_state_listner_2.py
+my_py_drone_pkg/fly_with_1drones.py
+my_py_drone_pkg/fly_with_2drones.py
+my_py_drone_pkg/fly_with_3drones.py
 my_py_drone_pkg/fly_with_4drone_ver2.py
+my_py_drone_pkg/fly_with_4drone_ver3.py
 my_py_drone_pkg/fly_with_4drones.py
 my_py_drone_pkg/fly_with_5drones.py
+my_py_drone_pkg/fly_with_raw.py
 my_py_drone_pkg/fly_with_yw.py
 my_py_drone_pkg/formation_of_drones.py
 my_py_drone_pkg/formation_of_drones_with_seperation.py
@@ -33,7 +38,6 @@ my_py_drone_pkg/multi_async_drones_retrn.py
 my_py_drone_pkg/multi_exec_2_drones.py
 my_py_drone_pkg/multi_waypoint.py
 my_py_drone_pkg/my_first_node.py
-my_py_drone_pkg/offb_node.py
 my_py_drone_pkg/offboard_control.py
 my_py_drone_pkg/offboard_control_ver2.py
 my_py_drone_pkg/proto_off.py

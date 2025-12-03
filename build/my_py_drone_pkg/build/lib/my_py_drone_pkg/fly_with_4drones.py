@@ -170,6 +170,7 @@ class BoidsDroneSwarm(Node):
     # This class implements a drone node that can act as a leader or follower in a swarm
     # It uses a Boids algorithm for followers to maintain separation, alignment, and cohesion
     # extra features include leader attraction, dispersion, and safety checks
+    # each unit of 1 equtes to 1 meter
     def __init__(self, namespace, is_leader=False, min_separation=0.61):
         # Initialize the node with a unique name based on the namespace
         super().__init__(f"drone_node_{namespace}")
@@ -181,15 +182,15 @@ class BoidsDroneSwarm(Node):
         
         # Boids parameters (for followers only)
         self.min_separation = min_separation  # Minimum separation distance in meters
-        self.max_speed = 20.0                 # Maximum speed when following (m/s)
-        self.current_speed = 12.0             # Current target speed (m/s)
+        self.max_speed = 30.0                 # Maximum speed when following (m/s)
+        self.current_speed = 20.0             # Current target speed (m/s)
         self.leader_id = "drone1"             # ID of the leader drone to follow
         
         # Weights for Boids algorithm
-        self.separation_weight = 1.4
-        self.alignment_weight = 1.4
-        self.cohesion_weight = 0.9
-        self.leader_attraction_weight = 1.5
+        self.separation_weight = 1.8 # 1.4
+        self.alignment_weight = 1.0 # 1.4
+        self.cohesion_weight = 0.4 # 0.9
+        self.leader_attraction_weight = 2.2 # 1.5
         
         # Dispersion parameters
         self.dispersion_weight = 2.5          # Weight for dispersion (overrides other forces)
@@ -324,7 +325,7 @@ class BoidsDroneSwarm(Node):
 
     def other_drone_state_callback(self, msg, drone_namespace):
         """Callback for receiving state updates from other drones"""
-        # This mianly handles updates from other drones in the swarm
+        # This mainly handles updates from other drones in the swarm
         if drone_namespace in self.other_drones:
             drone_state = self.other_drones[drone_namespace]
             drone_state.update_from_shared_state(msg)
@@ -345,7 +346,7 @@ class BoidsDroneSwarm(Node):
     def publish_setpoint(self):
         """Timer callback to publish setpoint"""
         now = self.get_clock().now()
-        
+        # This mainly used for publishing setpoint position and orientation for the drone to follow
         # For leader drone, skip publishing setpoints since it will be controlled by QGroundControl
         if self.is_leader:
             self.last_setpoint_time = now
@@ -445,6 +446,7 @@ class BoidsDroneSwarm(Node):
         leader_approaching = False
         dispersion_strength = 0.0
         
+        # If we have a leader, calculate leader attraction and dispersion
         if leader_found and follower_count > 0:
             # Calculate distance from leader to swarm center
             leader_to_center_dist = np.linalg.norm(leader_state.position - swarm_center)
@@ -453,6 +455,7 @@ class BoidsDroneSwarm(Node):
             leader_velocity = leader_state.velocity
             leader_direction = swarm_center - leader_state.position
             
+            # Normalize the direction vector if not zero
             if np.linalg.norm(leader_direction) > 0:
                 leader_direction = leader_direction / np.linalg.norm(leader_direction)
                 
@@ -461,7 +464,8 @@ class BoidsDroneSwarm(Node):
             
             # Dispersion activates when leader is approaching and within dispersion radius
             dispersion_radius = self.perception_radius * 2  # Larger than normal perception radius
-            if leader_approach_factor > 0.5 and leader_to_center_dist < dispersion_radius:
+            # If leader is approaching and within dispersion radius
+            if leader_approach_factor > 0.6 and leader_to_center_dist < dispersion_radius:
                 leader_approaching = True
                 # Strength increases as leader gets closer
                 dispersion_strength = 1.0 - (leader_to_center_dist / dispersion_radius)
@@ -664,6 +668,7 @@ class BoidsDroneSwarm(Node):
     
     def start_mission(self):
         """Start the mission state machine"""
+        # This mainly used for starting the mission state machine
         if self.is_leader:
             # For the leader, just arm and don't set OFFBOARD mode
             self.mission_state = "LEADER_MANUAL"
@@ -686,6 +691,7 @@ class BoidsDroneSwarm(Node):
             self.get_logger().info(f"{self.namespace} Returning to home position...")
     
     def mission_step(self):
+        # Mainly used for handling the mission state machine
         """Mission state machine timer callback"""
         if self.mission_state == "IDLE":
             return
@@ -789,7 +795,7 @@ class BoidsDroneSwarm(Node):
                 self.mission_state = "COMPLETE"
                 self.mission_completed = True
                 self.get_logger().info(f"{self.namespace} Mission completed")
-
+#helpful comments
 
 def main(args=None):
     rclpy.init(args=args)
@@ -818,7 +824,7 @@ def main(args=None):
     follower3.register_drone("drone3")
     
     # Create multi-threaded executor
-    executor = MultiThreadedExecutor(num_threads=8)
+    executor = MultiThreadedExecutor(num_threads=4)
     executor.add_node(leader)
     executor.add_node(follower1)
     executor.add_node(follower2)
@@ -851,8 +857,10 @@ def main(args=None):
             
             # For leader drone, we don't rely on mission_completed since it's manually controlled
             all_completed = (
-                follower1.mission_completed and 
-                follower2.mission_completed and
+                follower1.mission_completed 
+                and 
+                follower2.mission_completed 
+                and
                 follower3.mission_completed
             )
             

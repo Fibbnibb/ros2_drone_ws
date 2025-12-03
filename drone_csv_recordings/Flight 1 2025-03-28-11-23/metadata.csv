@@ -1,0 +1,2 @@
+flight_name,flight_number,timestamp,drones,recording_start,recording_end,duration_seconds,total_points,points_per_drone,recording_frequency
+Flight 1 2025-03-28-11-23,1,2025-03-28-11-23,"['drone1', 'drone2', 'drone3']",2025-03-28 11:23:32,2025-03-28 11:25:15,102.59997463226318,1532,"{'drone1': 509, 'drone2': 514, 'drone3': 509}",5.0
