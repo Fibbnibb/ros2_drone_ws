@@ -34,15 +34,9 @@ Drone Nodes [ROS2] -> Flocking Algorithm -> Gazebo Simulation -> MAVROS -> QGrou
 - Debugging communication between simulation components
 - Maintaining stable flocking behaviour
 
-## Demo
-
-[Add video/GIF]
-
 ## Future Improvements
 
 - Obstacle avoidance
 - Dynamic formation control
 - Real-world drone integration
-Add a short demonstration video/GIF.
-For a robotics project, this can be extremely powerful.
-________________________________________
+
