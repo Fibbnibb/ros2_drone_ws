@@ -25,17 +25,7 @@ Boids flocking algorithms using ROS2 and Gazebo.
 
 ## Architecture
 
-Drone Nodes
-     ↓
-ROS2
-     ↓
-Flocking Algorithm
-     ↓
-Gazebo Simulation
-     ↓
-MAVROS
-     ↓
-QGroundControl
+Drone Nodes [ROS2] -> Flocking Algorithm -> Gazebo Simulation -> MAVROS -> QGroundControl
 
 ## Engineering Challenges
 
